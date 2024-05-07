@@ -110,7 +110,6 @@ const LoginPage = () => {
           router.replace('/')
 
         } else {
-          console.log('open snacbar dongggg...')
           snackBarStore.openSnackbar({
             status: 'error',
             message: 'Username atau Password salah!'
