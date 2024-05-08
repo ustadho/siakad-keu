@@ -1,8 +1,14 @@
+import Card from './Card'
+import Navbar from './Navbar'
+import Section from './Section'
+
 const KelasPage = () => {
   return (
-    <div>
-      Kelas Page
-    </div>
+    <>
+      <Navbar />
+      <Section />
+      <Card />
+    </>
   )
 }
 
